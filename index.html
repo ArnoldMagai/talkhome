@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TalkHome - Voice Controlled Smart Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>TalkHome</h1>
+    <p>Voice-Controlled Smart Home Dashboard</p>
+  </header>
+
+  <main>
+    <button id="start-btn">Start Listening</button>
+    <p id="status">Say a command like "Turn on the light"</p>
+
+    <section class="devices">
+      <div class="device" id="light">
+        <img src="https://img.icons8.com/color/96/light-on.png" alt="Light" />
+        <p>Light: <span class="state">Off</span></p>
+      </div>
+      <div class="device" id="door">
+        <img src="https://img.icons8.com/color/96/door.png" alt="Door" />
+        <p>Door: <span class="state">Closed</span></p>
+      </div>
+      <div class="device" id="fan">
+        <img src="https://img.icons8.com/color/96/fan.png" alt="Fan" />
+        <p>Fan: <span class="state">Off</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TalkHome. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
